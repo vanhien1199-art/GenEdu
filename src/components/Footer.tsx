@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
                     />
                 </div>
                 <a 
-                  href="https://zalo.me" // <-- Thay link Zalo cá nhân/OA của bạn vào đây
+                  href="https://zalo.me/0914329178" // <-- Thay link Zalo cá nhân/OA của bạn vào đây
                   target="_blank" 
                   rel="noreferrer"
                   className="text-sm text-blue-400 hover:text-blue-300 flex items-center gap-1 transition"
@@ -85,3 +85,4 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
+
