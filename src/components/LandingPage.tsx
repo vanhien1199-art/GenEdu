@@ -139,14 +139,11 @@ const LandingPage: React.FC = () => {
               rel="noreferrer"
               className="flex items-center justify-center gap-2 px-8 py-4 text-lg font-bold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition shadow-xl hover:shadow-blue-600/30 transform hover:-translate-y-1"
             >
-              <Rocket size={20} />
+              <Rocket size={18} />
              Tạo câu  hỏi
               </a>
-              <span className="inline-flex items-center gap-2 text-slate-400 font-bold cursor-not-allowed">
-                Sắp ra mắt...
-              </span>
-            </div>
-
+              
+              </div>
             {/* Tool 3: Coming Soon */}
             <div className="group relative bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300 opacity-75">
               <div className="w-16 h-16 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-600 mb-6">
@@ -172,6 +169,7 @@ const LandingPage: React.FC = () => {
 
 
 export default LandingPage;
+
 
 
 
