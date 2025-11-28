@@ -129,14 +129,15 @@ const LandingPage: React.FC = () => {
                 <Zap size={32} />
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-3">
-                <a 
+               <a 
               href="https://edutoolgame.pages.dev" 
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-center gap-2 px-8 py-4 text-lg font-bold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition shadow-xl hover:shadow-blue-600/30 transform hover:-translate-y-1"
             >
               <Rocket size={18} />
-                Tạo câu hỏi tự động cho Vnedu lms
+           Tạo câu hỏi tự động cho Vnedu LMS
+              </a>
               </h3>
               <p className="text-slate-500 mb-8 leading-relaxed">
                 Giải pháp tạo ngân hàng câu hỏi tự động cho VNEDU / LMS.
@@ -146,7 +147,7 @@ const LandingPage: React.FC = () => {
                 target="_blank"
                 className="inline-flex items-center gap-2 text-blue-600 font-bold hover:gap-3 transition-all"
               >
-                Tạo trò chơi<ArrowRight size={18}/>
+                Tạọ câu hỏi<ArrowRight size={18}/>
               </a>
               
               </div>
@@ -175,6 +176,7 @@ const LandingPage: React.FC = () => {
 
 
 export default LandingPage;
+
 
 
 
