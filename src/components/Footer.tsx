@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
             <li><a href="#" className="hover:text-blue-400 transition">Điều khoản dịch vụ</a></li>
             <a href="https://facebook.com/nung.hien" target="_blank" class="contact-btn fb">
                     <i class="fab fa-facebook-f"></i> Nhắn tin Facebook
-                </a>
+                </a></li>
             <li className="flex items-start gap-2 mt-4 text-slate-500">
                <MapPin size={16} className="mt-1 flex-shrink-0"/> 
            </li>
@@ -61,6 +61,7 @@ const Footer: React.FC = () => {
 
 
 export default Footer;
+
 
 
 
