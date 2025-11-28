@@ -130,7 +130,7 @@ const LandingPage: React.FC = () => {
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-3">
                <a 
-              href="https://edutoolgame.pages.dev" 
+              href="https://edutool.pages.dev" 
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-center gap-2 px-8 py-4 text-lg font-bold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition shadow-xl hover:shadow-blue-600/30 transform hover:-translate-y-1"
@@ -143,7 +143,7 @@ const LandingPage: React.FC = () => {
                 Giải pháp tạo ngân hàng câu hỏi tự động cho VNEDU / LMS.
               </p>
                <a 
-                href="https://edutoolgame.pages.dev" 
+                href="https://edutool.pages.dev" 
                 target="_blank"
                 className="inline-flex items-center gap-2 text-blue-600 font-bold hover:gap-3 transition-all"
               >
@@ -176,6 +176,7 @@ const LandingPage: React.FC = () => {
 
 
 export default LandingPage;
+
 
 
 
