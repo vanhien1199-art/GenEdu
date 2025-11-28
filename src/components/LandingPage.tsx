@@ -102,13 +102,13 @@ const LandingPage: React.FC = () => {
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-3">
                 <a 
-                href="https://edutoolgame.pages.dev" 
-                target="_blank" 
-                rel="noreferrer"
-                className="hover:text-blue-600 transition-colors cursor-pointer"
-                title="Bấm để mở công cụ"
-              >
-                Game Creator AI
+              href="https://edutoolgame.pages.dev" 
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center justify-center gap-2 px-8 py-4 text-lg font-bold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition shadow-xl hover:shadow-blue-600/30 transform hover:-translate-y-1"
+            >
+              <Rocket size={20} />
+             Game Creator AI
               </a>
                
               </h3>
@@ -163,4 +163,5 @@ const LandingPage: React.FC = () => {
 
 
 export default LandingPage;
+
 
