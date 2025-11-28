@@ -56,9 +56,9 @@ const Footer: React.FC = () => {
             <div className="flex flex-col gap-2">
                 <span className="text-xs text-slate-400 uppercase font-bold tracking-wide">Quét mã Zalo</span>
                 <div className="bg-white p-2 rounded-lg w-fit shadow-lg shadow-blue-900/20">
-                    {/* Mã QR được tạo tự động. Thay 'https://zalo.me/84914329178' vào param data */}
+                    {/* Mã QR được tạo tự động. Thay 'https://zalo.me/' vào param data */}
                     <img 
-                        src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://zalo.me" 
+                        src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://zalo.me/84914329178" 
                         alt="Zalo QR Code" 
                         className="w-24 h-24"
                     />
@@ -85,3 +85,4 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
+
