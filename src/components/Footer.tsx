@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         {/* Cột 1: Logo & Slogan */}
         <div className="col-span-1 md:col-span-2">
           <div className="flex items-center gap-2 mb-4">
-             <span className="text-2xl font-extrabold text-white tracking-tight">GenEdu<span className="text-blue-500">.vn</span></span>
+             <span className="text-2xl font-extrabold text-white tracking-tight">GenEdu<span className="text-blue-500"></span></span>
           </div>
           <p className="text-slate-400 text-sm leading-relaxed max-w-sm mb-6">
             Hệ sinh thái giáo dục ứng dụng trí tuệ nhân tạo, giúp giáo viên Việt Nam soạn bài giảng sáng tạo, tiết kiệm thời gian và nâng cao chất lượng dạy học.
@@ -25,8 +25,8 @@ const Footer: React.FC = () => {
         <div>
           <h3 className="text-white font-bold text-lg mb-4">Sản Phẩm</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:text-blue-400 transition">Game Creator AI</a></li>
-            <li><a href="#" className="hover:text-blue-400 transition">Trợ Lý Soạn Văn</a></li>
+            <li><a href="#" className="hover:text-blue-400 transition">Game khởi động bài học, luyện tập</a></li>
+            <li><a href="#" className="hover:text-blue-400 transition">Tạo kho câu hỏi</a></li>
             <li><a href="#" className="hover:text-blue-400 transition">Ngân Hàng Đề Thi</a></li>
             <li><a href="#" className="hover:text-blue-400 transition">Công Cụ Chấm Điểm</a></li>
           </ul>
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
             <li><a href="#" className="hover:text-blue-400 transition">Điều khoản dịch vụ</a></li>
             <li className="flex items-start gap-2 mt-4 text-slate-500">
                <MapPin size={16} className="mt-1 flex-shrink-0"/> 
-               <span>Tầng 5, Tòa nhà Công Nghệ, Hà Nội</span>
+               <span>?</span>
             </li>
           </ul>
         </div>
@@ -53,5 +53,6 @@ const Footer: React.FC = () => {
     </footer>
   );
 };
+
 
 export default Footer;
