@@ -100,7 +100,18 @@ const LandingPage: React.FC = () => {
               <div className="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 mb-6 group-hover:scale-110 transition-transform">
                 <BrainCircuit size={32} />
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-3">Game Creator AI</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-3">
+                <a 
+                href="https://edutoolgame.pages.dev" 
+                target="_blank" 
+                rel="noreferrer"
+                className="hover:text-blue-600 transition-colors cursor-pointer"
+                title="Bấm để mở công cụ"
+              >
+                Game Creator AI
+              </a>
+               
+              </h3>
               <p className="text-slate-500 mb-8 leading-relaxed">
                 Biến nội dung sách giáo khoa thành các trò chơi tương tác (Trắc nghiệm, Ô chữ, Hộp bí mật) chỉ trong tích tắc.
               </p>
@@ -152,3 +163,4 @@ const LandingPage: React.FC = () => {
 
 
 export default LandingPage;
+
