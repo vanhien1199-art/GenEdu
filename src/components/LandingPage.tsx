@@ -70,8 +70,8 @@ const LandingPage: React.FC = () => {
       <section className="border-y border-slate-100 bg-slate-50/50 py-12">
          <div className="max-w-6xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
-               { num: "10,000+", label: "Giáo viên tin dùng" },
-               { num: "50,000+", label: "Bài giảng đã tạo" },
+               { num: "3,000+", label: "Giáo viên tin dùng" },
+               { num: "6,000+", label: "Bài giảng đã tạo" },
                { num: "30s", label: "Thời gian xử lý" },
                { num: "4.9/5", label: "Đánh giá hài lòng" },
             ].map((stat, idx) => (
@@ -176,6 +176,7 @@ const LandingPage: React.FC = () => {
 
 
 export default LandingPage;
+
 
 
 
