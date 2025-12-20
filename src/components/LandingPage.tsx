@@ -1,7 +1,7 @@
 import React from 'react';
 import { 
   Rocket, BrainCircuit, CheckCircle, ArrowRight, 
-  Users, Zap, Star, ShieldCheck, PlayCircle
+  LayoutGrid , Zap, Star, ShieldCheck, PlayCircle
 } from 'lucide-react';
 import Footer from './Footer';
 
@@ -16,7 +16,7 @@ const LandingPage: React.FC = () => {
            <div className="hidden md:flex gap-8 text-sm font-medium text-slate-600">
               <a href="#features" className="hover:text-blue-600 transition">Tính Năng</a>
               <a href="#tools" className="hover:text-blue-600 transition">Công Cụ</a>
-              <a href="#pricing" className="hover:text-blue-600 transition"></a>
+              <a href="#pricing" className="hover:text-blue-600 transition">Rổ giá</a>
            </div>
            <button className="px-5 py-2 bg-slate-900 text-white text-sm font-bold rounded-full hover:bg-slate-800 transition">Đăng Nhập</button>
         </div>
@@ -155,8 +155,7 @@ const LandingPage: React.FC = () => {
             {/* Tool 3: Coming Soon */}
             <div className="group relative bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300 opacity-75">
               <div className="w-16 h-16 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-600 mb-6">
-                
-                <LayoutGrid size={32} />
+                  <LayoutGrid size={32} />
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-3">Công cụ tạo ma trận và đề kiểm tra</h3>
               <p className="text-slate-500 mb-8 leading-relaxed">
@@ -184,6 +183,7 @@ const LandingPage: React.FC = () => {
 
 
 export default LandingPage;
+
 
 
 
