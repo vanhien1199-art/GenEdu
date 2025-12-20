@@ -44,19 +44,19 @@ const LandingPage: React.FC = () => {
           </h1>
           
           <p className="text-xl text-slate-500 mb-10 max-w-2xl mx-auto leading-relaxed animate-fade-in-up">
-            Tích hợp toàn bộ công cụ bạn cần: Tạo game tương tác, soạn giáo án, chấm điểm tự động chỉ với 1 cú click chuột.
+            Tích hợp toàn bộ công cụ bạn cần: Tạo game tương tác, soạn giáo án, tạo đề kiểm tra chỉ với 1 cú click chuột.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in-up">
-            {/* LINK SANG CÔNG CỤ TẠO GAME */}
+            {/* LINK SANG CÔNG CỤ TẠO ĐỀ */}
             <a 
-              href="https://edutoolgame.pages.dev" 
+              href="https://testtool-dl2.pages.dev/" 
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-center gap-2 px-8 py-4 text-lg font-bold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition shadow-xl hover:shadow-blue-600/30 transform hover:-translate-y-1"
             >
               <Rocket size={20} />
-              Dùng Thử Miễn Phí
+              Dùng Thử
             </a>
             <button className="flex items-center justify-center gap-2 px-8 py-4 text-lg font-bold text-slate-700 bg-white border border-slate-200 rounded-full hover:bg-slate-50 transition shadow-sm">
               <PlayCircle size={20} />
@@ -157,7 +157,16 @@ const LandingPage: React.FC = () => {
               <div className="w-16 h-16 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-600 mb-6">
                   <LayoutGrid size={32} />
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-3">Công cụ tạo ma trận và đề kiểm tra</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-3">
+                <a 
+              href="https://testtool-dl2.pages.dev/" 
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center justify-center gap-2 px-8 py-4 text-lg font-bold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition shadow-xl hover:shadow-blue-600/30 transform hover:-translate-y-1"
+            >
+                  Công cụ tạo ma trận và đề kiểm tra
+              </a>
+                  
               <p className="text-slate-500 mb-8 leading-relaxed">
                 Đây là công cụ hỗ trợ giáo viên trong việctạo đề kiểm tra tự động. Hệ thống kết hợp sức mạnh của trí tuệ nhân tạo (Google Gemini) và thuật toán tối ưu hóa toán học để đảm bảo đề thi luôn sát với yêu cầu.
               </p>
@@ -183,6 +192,7 @@ const LandingPage: React.FC = () => {
 
 
 export default LandingPage;
+
 
 
 
